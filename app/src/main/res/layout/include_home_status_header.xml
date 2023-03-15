@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimary"
+    android:paddingTop="16dp"
+    android:paddingBottom="32dp">
+
+    <TextView
+        android:id="@+id/tv_home_mentor_header"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_status_header_mentor"
+        android:theme="@style/TextViewStatusHeader"
+        app:layout_constraintEnd_toStartOf="@+id/tv_home_tasks_header"
+        app:layout_constraintStart_toStartOf="@+id/guideline_status_header_left"
+        app:layout_constraintTop_toTopOf="@+id/guideline_status_header_top" />
+
+    <TextView
+        android:id="@+id/tv_home_tasks_header"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_status_header_tasks"
+        android:theme="@style/TextViewStatusHeader"
+        app:layout_constraintEnd_toStartOf="@+id/tv_home_friends_header"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/tv_home_mentor_header"
+        app:layout_constraintTop_toTopOf="@+id/guideline_status_header_top" />
+
+    <TextView
+        android:id="@+id/tv_home_friends_header"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_status_header_friends"
+        android:theme="@style/TextViewStatusHeader"
+        app:layout_constraintEnd_toStartOf="@+id/guideline_status_header_right"
+        app:layout_constraintStart_toEndOf="@+id/tv_home_tasks_header"
+        app:layout_constraintTop_toTopOf="@+id/guideline_status_header_top" />
+
+    <TextView
+        android:id="@+id/tv_home_mentor_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2"
+        android:theme="@style/TextViewStatusHeaderCount"
+        app:layout_constraintEnd_toEndOf="@+id/tv_home_mentor_header"
+        app:layout_constraintStart_toStartOf="@+id/tv_home_mentor_header"
+        app:layout_constraintTop_toBottomOf="@+id/tv_home_mentor_header" />
+
+    <TextView
+        android:id="@+id/tv_home_tasks_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="8"
+        android:theme="@style/TextViewStatusHeaderCount"
+        app:layout_constraintEnd_toEndOf="@+id/tv_home_tasks_header"
+        app:layout_constraintStart_toEndOf="@+id/tv_home_mentor_header"
+        app:layout_constraintTop_toBottomOf="@+id/tv_home_tasks_header" />
+
+    <TextView
+        android:id="@+id/tv_home_friends_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="20"
+        android:theme="@style/TextViewStatusHeaderCount"
+        app:layout_constraintEnd_toEndOf="@+id/tv_home_friends_header"
+        app:layout_constraintStart_toStartOf="@+id/tv_home_friends_header"
+        app:layout_constraintTop_toBottomOf="@+id/tv_home_friends_header" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_status_header_top"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="16dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_status_header_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="16dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_status_header_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="395dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

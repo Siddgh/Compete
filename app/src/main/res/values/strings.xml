@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name" translatable="false">compete</string>
+    <string name="tv_status_header_mentor" translatable="false">MENTOR</string>
+    <string name="tv_status_header_tasks" translatable="false">TASKS</string>
+    <string name="tv_status_header_friends" translatable="false">FRIENDS</string>
+    <string name="header_active_tasks" translatable="false">Active Tasks</string>
+    <string name="fab_addtask_content_description" translatable="false">Add Tasks</string>
+    <string name="bottom_sheet_new_task_header" translatable="false">New Task</string>
+    <string name="bottom_sheet_task_title_hint" translatable="false">Eg. Run 2 Miles Everyday</string>
+    <string name="bottom_sheet_add_tasks_metric_title" translatable="false">Metric</string>
+    <string name="bottom_sheet_confirm_to_add_content_desc" translatable="false">Confirm to Add New Task</string>
+    <string name="tv_recyclerview_item_with_header" translatable="false">WITH</string>
+
+    <string name="navigation_drawer_open" translatable="false">Open</string>
+    <string name="navigation_drawer_close" translatable="false">Close</string>
+    <string name="tasks_detail_btn_add_friends" translatable="false">+ Add Friends</string>
+    <string name="dashboard_text" translatable="false">Dashboard</string>
+    <string name="sign_in" translatable="false">Sign In</string>
+    <string name="sign_in_with_google" translatable="false">Sign in with Google</string>
+    <string name="not_registered_yet_sign_up" translatable="false">Not Registered Yet , Sign Up !</string>
+    <string name="type_your_password" translatable="false">Type Your Password</string>
+    <string name="type_your_email" translatable="false">Type your Email</string>
+
+
+    <string-array name="task_type">
+        <item>Self</item>
+        <item>Friends</item>
+        <item>Mentor</item>
+    </string-array>
+
+    <string-array name="task_metric">
+        <item>Numbers</item>
+        <item>Kilometers</item>
+        <item>Miles</item>
+        <item>Time</item>
+    </string-array>
+
+    <string-array name="spinner_dashboard">
+        <item>Monthly</item>
+        <item>Yearly</item>
+    </string-array>
+
+</resources>

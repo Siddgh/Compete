@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="TextViewStatusHeader">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="TextViewStatusHeaderCount">
+        <item name="android:textSize">28sp</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:layout_marginTop">16dp</item>
+    </style>
+
+    <style name="TextViewHeadingForRecyclerView">
+        <item name="android:textSize">26sp</item>
+        <item name="android:textAlignment">textStart</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="TextViewHeadingForBottomSheet">
+        <item name="android:textSize">21sp</item>
+        <item name="android:textAlignment">textStart</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+
+    <style name="EditTextForAddingNewTask">
+        <item name="hintTextColor">@color/grey</item>
+        <item name="android:padding">16dp</item>
+    </style>
+
+    <style name="SpinnerForAddingNewTask">
+        <item name="android:padding">16dp</item>
+    </style>
+
+    <style name="TextViewRecyclerItemTitle">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="ImageViewForRecyclerItem">
+        <item name="android:layout_width">28dp</item>
+        <item name="android:layout_height">28dp</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+
+    <style name="CardViewRecyclerItemWithSection">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="cardCornerRadius">16dp</item>
+    </style>
+
+    <style name="DrawerArrowStyle" parent="@style/Widget.AppCompat.DrawerArrowToggle">
+        <item name="spinBars">true</item>
+    </style>
+
+</resources>

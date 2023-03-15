@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "42762102646",
+    "project_id": "compete-951af",
+    "storage_bucket": "compete-951af.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:42762102646:android:6fd8c94c0feaf3d3acbc57",
+        "android_client_info": {
+          "package_name": "com.example.cs683.compete"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "42762102646-e9jiecfmr5upgrs0e61hl0rrlhlvhqg2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1j6CnT8O_9TepgeUPydMjXOIoTpyeq5A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "42762102646-2umf4f8l4g52566h1j5p7q941oursh99.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
